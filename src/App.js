@@ -6,6 +6,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Publications from "./components/publications";
 import Education from "./components/education";
+import Gallery from "./components/gallery";
 import Contact from "./components/contact"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Projects />
       <Publications />
+      <Gallery />
       <Contact />
     </div>
   );
